@@ -54,75 +54,39 @@
 
 
 <header>
-    <div class="px-3 py-2 text-white">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <!-- <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"></a>
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-          </a> -->
 
-          <div class="nav-logo">
-            <img src="/images/mym-logo-blue-green.png" height="97px">
-          </div>
-
-          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-            <li>
-              <a href="#" class="nav-link text-secondary">
-                <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg> -->
-                Challenges
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg> -->
-                Workouts
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg> -->
-                Profile
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white" alt="settings">
-                <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg> -->
-                Friends
-              </a>
-            </li>
-          </ul>
-          <form class="nav-link col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-            </form>
-
-            <div class="avatar">
-              <img src="/images/Andrew_Avatar.png" height="60px">
-            </div>
-
-          <div class="text-end">
-            <button type="button" class="btn btn-light text-dark me-2">Log out</button>
-          </div>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <div class="nav-logo justify-content-left">
+          <img src="/images/mym-logo-blue-green.png" height="97px">
         </div>
-      </div>
-    </div>
-    <!-- <div class="px-3 py-2 border-bottom mb-3">
-      <div class="container d-flex flex-wrap justify-content-center">
-        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
-
-      </div>
-    </div> -->
+      </a>
+      <nav>
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Challenges</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Workouts</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"></a></li>
+              <div> 
+                <img class="avatar" src="/images/Andrew_Avatar.png">
+              </div>
+              <li class="nav-item"><a href="/index.html" class="nav-link">Log out</a></li>
+            </ul>
+      </nav>
+    </header>
+  </div>
+  
   </header>
 
 <main class="container">
     <div class=" px-4" id="custom-cards" style="z-index:10000;">
-      <!-- <h2 class="pb-2 border-bottom">Workouts</h2> -->
+      <h4 class="pb-2 text-white">What’s on for today?</h4>
 
         <div class="row row-cols-1 row-cols-md-4 align-items-stretch g-4 py-5">
           
           <div class="col">
-            <div class="tile-bg card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg">
+            <div class="tile-bg  card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg">
               <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
                 <img class="icon" src="/Workouts/images/HIIT.svg">
                 <h6 class="tile-title">HIIT</h6>
@@ -131,43 +95,19 @@
           </div>
 
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="tile-bg  card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg">
               <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                <h5 class=" mt-3 mb-4 lh-1">Pilates</h5>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>4d</small>
-                  </li>
-                </ul>
+                <img class="icon" src="/Workouts/images/HIIT.svg">
+                <h6 class="tile-title">HIIT</h6>
               </div>
             </div>
           </div>
 
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+            <div class="tile-bg  card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg">
               <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-1">
-                <h5 class="mt-3 mb-4 lh-1">Stretching</h5>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>California</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>5d</small>
-                  </li>
-                </ul>
+                <img class="icon" src="/Workouts/images/HIIT.svg">
+                <h6 class="tile-title">HIIT</h6>
               </div>
             </div>
           </div>

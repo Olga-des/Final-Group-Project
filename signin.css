@@ -53,6 +53,6 @@ body {
   color: white;
   height: 55px;
   width: 364px;
-  background: rgb(186,215,90);
-  background: linear-gradient(135deg, rgba(186,215,90,1) 0%, rgba(96,197,69,1) 53%, rgba(84,194,66,1) 100%);
+  background:#0FC3CE;
+  /* background: linear-gradient(135deg, rgba(186,215,90,1) 0%, rgba(96,197,69,1) 10%, rgba(84,194,66,1) 30%); */
 }
