@@ -12,9 +12,7 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: rgb(82,34,105);
-  background: linear-gradient(135deg, rgba(82,34,105,1) 0%, rgba(163,79,192,1) 100%);
-}
+  background: linear-gradient(115.07deg, #2F2750 5.86%, #4556AE 49.14%, #6EBDEA 93.34%);}
 
 .form-signin {
   width: 100%;
